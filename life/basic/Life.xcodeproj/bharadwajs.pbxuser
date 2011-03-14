@@ -1,0 +1,183 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = A13370DE132D9EEF00F5D00B /* Life */;
+		activeTarget = 8DD76F620486A84900D96B5E /* Life */;
+		addToTargets = (
+			8DD76F620486A84900D96B5E /* Life */,
+		);
+		breakpoints = (
+			A133710C132DA11600F5D00B /* main.cpp:123 */,
+		);
+		codeSenseManager = A13370EE132D9EF300F5D00B /* Code sense */;
+		executables = (
+			A13370DE132D9EEF00F5D00B /* Life */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					720.58349609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 321757671;
+			PBXWorkspaceStateSaveDate = 321757671;
+		};
+		perUserProjectItems = {
+			A1337110132DA17900F5D00B /* PBXTextBookmark */ = A1337110132DA17900F5D00B /* PBXTextBookmark */;
+		};
+		sourceControlManager = A13370ED132D9EF300F5D00B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* main.cpp */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = main.cpp;
+		path = /Users/bharadwajs/Projects/etudes/life/basic/main.cpp;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1742}}";
+			sepNavSelRange = "{452, 0}";
+			sepNavVisRange = "{386, 863}";
+			sepNavWindowFrame = "{{276, 58}, {909, 720}}";
+		};
+	};
+	8DD76F620486A84900D96B5E /* Life */ = {
+		activeExec = 0;
+		executables = (
+			A13370DE132D9EEF00F5D00B /* Life */,
+		);
+	};
+	A13370DE132D9EEF00F5D00B /* Life */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+			YES,
+			YES,
+			YES,
+			YES,
+		);
+		argumentStrings = (
+			10,
+			10,
+			5,
+			20,
+			testlife,
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Life;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	A13370ED132D9EF300F5D00B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	A13370EE132D9EF300F5D00B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A133710C132DA11600F5D00B /* main.cpp:123 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		functionName = "main(int argc, char *argv[])";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 123;
+		location = Life;
+		modificationTime = 321757708.690005;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	A1337110132DA17900F5D00B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A1337111132DA17900F5D00B /* stl_bvector.h */;
+		name = "stl_bvector.h: 81";
+		rLen = 0;
+		rLoc = 3135;
+		rType = 0;
+		vrLen = 308;
+		vrLoc = 3026;
+	};
+	A1337111132DA17900F5D00B /* stl_bvector.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = stl_bvector.h;
+		path = "/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_bvector.h";
+		sourceTree = "<absolute>";
+	};
+	A19E72C8132DA20700124C0C /* life.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {850, 1755}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1224}";
+			sepNavWindowFrame = "{{15, 58}, {909, 720}}";
+		};
+	};
+}
