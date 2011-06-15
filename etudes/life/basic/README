@@ -1,0 +1,14 @@
+This is a basic implementation of life: one that illustrates the game itself.
+
+The overall design of this basic edition is as follows:
+
+Arena represented as a 2D vector of vectors of booleans. 
+A second vector of vectors is kept.
+The changes are applied based upon the state of each cell in the first 2d array
+to the second 2d array. 
+The second 2D array is copied to the first and simultaneously set to false.
+The arena is initialized using random seeding. 
+The user can control the size of the arena, and the number of initial cells
+alive, and the number of generations to do the simulation. 
+Every generation will be written out to a file. 
+
