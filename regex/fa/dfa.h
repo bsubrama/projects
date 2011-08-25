@@ -1,18 +1,18 @@
 #ifndef __INCLUDED_DFA_H
 #define __INCLUDED_DFA_H
 
-#include "automaton.h"
+#include "fa.h"
 #include "state.h"
 
 namespace fa {
 
-class DiscreteFiniteAutomaton: public Automaton {
+class DiscreteFiniteAutomaton: public FiniteAutomaton {
 // Contains the implementation of a discrete finite automaton.
 // Inherits from the abstract Automaton class which defines what an automaton
 // should do.
   public:
     DiscreteFiniteAutomaton(const std::string& name)
-    :Automaton(name) { }
+    :FiniteAutomaton(name) { }
     
     virtual void setLanguage(const std::vector<char>& language);
       // Implementation of the abstract setLanguage().

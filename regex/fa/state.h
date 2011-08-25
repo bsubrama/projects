@@ -57,13 +57,13 @@ class State {
 
   private:
     std::map<int, State *>   d_transitions;
-    // Contains a mapping between tokens that are expected in the input from the
-    // current state, and the State to transition to upon encountering such a
-    // token. 
+      // Contains a mapping between tokens that are expected in the input from the
+      // current state, and the State to transition to upon encountering such a
+      // token. 
     std::string              d_name;
-    // The name of the State. 
+      // The name of the State. 
     bool                     d_isFinal;
-    // Whether the state is a Final state, or a non-Final state. 
+      // Whether the state is a Final state, or a non-Final state. 
 };
 }
 #endif

@@ -9,11 +9,11 @@
 
 namespace fa {
 
-class Automaton {
+class FiniteAutomaton {
   //Abstract automaton class. defines the interface exposed by all the automata
   //implemented.
   public:
-    Automaton(const std::string& name)
+    FiniteAutomaton(const std::string& name)
     :d_name(name) {}
 
     virtual void setLanguage(const std::vector<char>& language) = 0;
