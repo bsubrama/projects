@@ -8,8 +8,8 @@ namespace fa {
 
 class DiscreteFiniteAutomaton: public FiniteAutomaton {
 // Contains the implementation of a discrete finite automaton.
-// Inherits from the abstract Automaton class which defines what an automaton
-// should do.
+// Inherits from the abstract FiniteAutomaton class which defines what an 
+// automaton should do.
   public:
     DiscreteFiniteAutomaton(const std::string& name)
     :FiniteAutomaton(name) { }
