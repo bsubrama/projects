@@ -6,21 +6,21 @@
 #ifndef __INCLUDED_DFA_H
 #define __INCLUDED_DFA_H
 
-#include <automaton.h>
-#include <state.h>
+#include "automaton.h"
+#include "state.h"
 
 namespace fa {
 
 class DiscreteFiniteAutomaton: public Automaton {
-	public:
-		DiscreteFiniteAutomaton(const std::string& name,
-														const std::vector<char>& language)
-		:Automaton(name, language) { }
-
-		virtual bool evaluate(const std::string& input);
-		virtual State *getState(const std::string& name);
-		virtual void printTransitionTable();
-		virtual void insertState(const State **state);
+  public:
+    DiscreteFiniteAutomaton(const std::string& name)
+    :Automaton(name) { }
+    
+    virtual void setLanguage(const std::vector<char>& language);
+    virtual bool evaluate(const std::string& input);
+    virtual State *getState(const std::string& name);
+    virtual void printTransitionTable();
+    virtual void insertState(const State **state);
 };
 }
 #endif
